@@ -54,7 +54,7 @@ def get_all_messages():
     cursor.execute(
         """
             SELECT id, user_message, assistant_response
-            FROM message
+            FROM messages
             ORDER BY id ASC
         """
         
